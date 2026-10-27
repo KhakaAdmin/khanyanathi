@@ -1,0 +1,27 @@
+# WordPress core is managed by wp-env, never committed
+/wordpress/
+
+# Pulled from staging, kept local only (licensed or large)
+/wp-content/*
+!/wp-content/mu-plugins/
+!/wp-content/acf-json/
+/wp-content/mu-plugins/*
+!/wp-content/mu-plugins/khanyanathi-core.php
+
+# Database dumps and migration files
+*.sql
+*.sql.gz
+*.wpress
+/backups/
+
+# Secrets and local overrides
+.env
+.wp-env.override.json
+wp-config-local.php
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+node_modules/
