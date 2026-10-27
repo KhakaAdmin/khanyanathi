@@ -7,7 +7,7 @@
 | **Change request** | Estimate approved by Anthea on **13 Oct 2026** |
 | **Owner / reviewer** | Developer: Axel · Reviewer: Khaka |
 | **Client review date** | **Tue 27 Oct 2026.** Anthea wants to see the progress so far even without the caregiver videos |
-| **ClickUp** | [ECD task](https://app.clickup.com/t/12487v2dtcu) · [Academic & Career task](https://app.clickup.com/t/12487v2dtct) |
+| **ClickUp** | [ECD task](https://app.clickup.com/t/12487v2dtcu) (subtasks ECD 1–7) · [Academic & Career task](https://app.clickup.com/t/12487v2dtct) (subtasks A&C 1–4). **The ClickUp subtasks are the live version of this brief.** |
 | **Local setup** | [docs/local-setup.md](./local-setup.md) |
 
 ---
@@ -22,8 +22,8 @@
 - "Helpful information", not "What you'll find here"
 
 **Read these, in this order:**
-1. 📐 **Wireframe + full ACF spec (build from this):** [ClickUp artifact v5](https://app.clickup.com/90151870542/artifact/2kyqgr2e-34915?version=5). Its *Data model* tab tells you what to create, what to edit and what to clean up.
-2. 🖼️ **What the client approved:** *Khanya-Nathi-Proposed-Page-Layouts.pdf* (attached to both ClickUp tasks). The finished pages must match it.
+1. 📐 **Wireframe + full ACF spec (build from this):** *khanya-nathi-pillar-wireframes.html*, attached to both parent ClickUp tasks. Its *Data model (Axel)* tab has the exact field names and lists what to create, what to edit and what to clean up. **Where this document and the wireframe disagree on field names, the wireframe wins.**
+2. 🖼️ **What the client approved:** the page flow in Khaka's **12 Oct email**, which Anthea approved on **13 Oct**. It's quoted in each parent ClickUp task. *Khanya-Nathi-Proposed-Page-Layouts.pdf* was **never sent to Anthea**. It's an internal sketch only.
 3. 📘 **House style for copy:** [Website Build Guide](https://docs.google.com/document/d/13FbQv-s51udNzOOf0z72wO01DLP-KoZTKBEAmnOxfYQ/edit). Blue text is copy, red text is instructions.
 4. 🎨 Brand colours: [Colour scheme doc](https://drive.google.com/file/d/1lGCyxvnpTRQxkrSa_iToFWYn6pIxboex/view). ECD is orange and Academic is blue.
 
@@ -82,7 +82,7 @@ Section order:
 5. **Need help now?** Police / GBV 10111 · Ambulance 10177 · Childline 0800 055 555, plus a link to the full list
 6. Helpful information: the existing ECD topics, **restyled to match the other Areas of Support**
 
-**Docs for this step:** *ECD - Caregiver Guide v2.pdf* and *ECD - Kids routine guide.pdf* (both on the ClickUp task) · Layouts PDF (ECD pages)
+**Docs for this step:** *ECD - Caregiver Guide v2.pdf* and *ECD - Kids routine guide.pdf* (both on the ClickUp task) · Wireframe *ECD* tab
 
 ### A5. ROOTS resource list page (new): `/ecd/resources/`
 **Do:**
@@ -128,7 +128,7 @@ The plan changed: **Fairheads now hosts the videos on their own YouTube channel 
 
 Match each link to its video using the WeTransfer zips on the [Academic task](https://app.clickup.com/t/12487v2dtct). If the 4 social clips aren't among these links, keep their slots hidden until they arrive. Shorts are vertical, so use a 9:16 frame.
 
-**Docs for this step:** *CareerXplora flyer (website).png*, *CareerXplora flyer (chat service).jpg*, *Why use CareerXplora.jpg* and *CareerXplora presentation.pdf* (all on the ClickUp task) · Layouts PDF pages 8–9
+**Docs for this step:** *CareerXplora flyer (website).png*, *CareerXplora flyer (chat service).jpg*, *Why use CareerXplora.jpg* and *CareerXplora presentation.pdf* (all on the ClickUp task) · Wireframe *Academic & Career* tab
 
 ---
 
