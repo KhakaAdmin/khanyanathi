@@ -1,0 +1,26 @@
+{
+    "key": "ui_options_page_kn_help_contacts",
+    "title": "Help Contacts",
+    "active": true,
+    "menu_order": 0,
+    "page_title": "Help Contacts",
+    "menu_slug": "help-contacts",
+    "parent_slug": "none",
+    "advanced_configuration": false,
+    "icon_url": "",
+    "menu_title": "Help Contacts",
+    "position": null,
+    "redirect": false,
+    "description": "The help numbers shown on the ECD and ECD Resources pages.",
+    "menu_icon": {
+        "type": "dashicons",
+        "value": "dashicons-phone"
+    },
+    "update_button": "Update",
+    "updated_message": "Options Updated",
+    "capability": "edit_posts",
+    "data_storage": "options",
+    "post_id": "",
+    "autoload": false,
+    "modified": 1793112633
+}

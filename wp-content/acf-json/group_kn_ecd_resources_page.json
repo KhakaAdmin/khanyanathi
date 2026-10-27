@@ -1,0 +1,48 @@
+{
+    "key": "group_kn_ecd_resources_page",
+    "title": "ECD Resources page",
+    "fields": [
+        {
+            "key": "field_kn_ecdres_full_list_pdf",
+            "label": "Full list PDF",
+            "name": "full_list_pdf",
+            "aria-label": "",
+            "type": "file",
+            "instructions": "Drives the 'Download the full list (PDF)' button. Leave empty to hide it.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "mime_types": "pdf",
+            "library": "all",
+            "min_size": 0,
+            "max_size": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "kn_page_path",
+                "operator": "==",
+                "value": "ecd\/resources"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [],
+    "active": true,
+    "description": "",
+    "show_in_rest": false,
+    "display_title": "",
+    "allow_ai_access": false,
+    "ai_description": "",
+    "modified": 1793112851
+}

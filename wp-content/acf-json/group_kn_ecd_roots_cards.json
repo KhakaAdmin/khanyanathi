@@ -1,0 +1,215 @@
+{
+    "key": "group_kn_ecd_roots_cards",
+    "title": "ECD: ROOTS cards",
+    "fields": [
+        {
+            "key": "field_kn_roots_roots_heading",
+            "label": "Section heading",
+            "name": "roots_heading",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "ROOTS: what every child needs",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_kn_roots_roots_cards",
+            "label": "ROOTS cards",
+            "name": "roots_cards",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": 5,
+            "max": 5,
+            "layout": "block",
+            "button_label": "Add card",
+            "rows_per_page": 20,
+            "collapsed": "",
+            "sub_fields": [
+                {
+                    "key": "field_kn_roots_letter",
+                    "label": "Letter",
+                    "name": "letter",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "maxlength": 1,
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_kn_roots_roots_cards"
+                },
+                {
+                    "key": "field_kn_roots_title",
+                    "label": "Title",
+                    "name": "title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "e.g. 'Relationships'",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_kn_roots_roots_cards"
+                },
+                {
+                    "key": "field_kn_roots_meaning",
+                    "label": "Meaning",
+                    "name": "meaning",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "e.g. 'I am loved. I belong.'",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_kn_roots_roots_cards"
+                },
+                {
+                    "key": "field_kn_roots_video",
+                    "label": "Video",
+                    "name": "video",
+                    "aria-label": "",
+                    "type": "oembed",
+                    "instructions": "YouTube link. The video slot is hidden when this is empty.",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "width": "",
+                    "height": "",
+                    "parent_repeater": "field_kn_roots_roots_cards"
+                },
+                {
+                    "key": "field_kn_roots_download_label",
+                    "label": "Extra download label",
+                    "name": "download_label",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "e.g. 'Kids routine guide'",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_kn_roots_roots_cards"
+                },
+                {
+                    "key": "field_kn_roots_download_file",
+                    "label": "Extra download",
+                    "name": "download_file",
+                    "aria-label": "",
+                    "type": "file",
+                    "instructions": "Only used on Order \/ Routine.",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "mime_types": "pdf",
+                    "library": "all",
+                    "min_size": 0,
+                    "max_size": 0,
+                    "parent_repeater": "field_kn_roots_roots_cards"
+                },
+                {
+                    "key": "field_kn_roots_list_anchor",
+                    "label": "Resource list anchor",
+                    "name": "list_anchor",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "The ROOTS area slug, e.g. 'relationships' links to \/ecd\/resources\/#relationships",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_kn_roots_roots_cards"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "271"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [],
+    "active": true,
+    "description": "",
+    "show_in_rest": false,
+    "display_title": "",
+    "allow_ai_access": false,
+    "ai_description": "",
+    "modified": 1793112851
+}

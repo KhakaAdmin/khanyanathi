@@ -1,0 +1,183 @@
+{
+    "key": "group_kn_roots_resource",
+    "title": "ROOTS resource details",
+    "fields": [
+        {
+            "key": "field_kn_rres_helps_with",
+            "label": "What it helps with",
+            "name": "helps_with",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "One line.",
+            "required": 1,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "rows": 2,
+            "new_lines": "",
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_kn_rres_resource_kind",
+            "label": "Resource kind",
+            "name": "resource_kind",
+            "aria-label": "",
+            "type": "button_group",
+            "instructions": "",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "link": "Link",
+                "pdf": "PDF",
+                "phone": "Phone",
+                "none": "None"
+            },
+            "default_value": "link",
+            "return_format": "value",
+            "allow_null": 0,
+            "layout": "horizontal"
+        },
+        {
+            "key": "field_kn_rres_link_url",
+            "label": "Link",
+            "name": "link_url",
+            "aria-label": "",
+            "type": "url",
+            "instructions": "Always opens in a new tab.",
+            "required": false,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_kn_rres_resource_kind",
+                        "operator": "==",
+                        "value": "link"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_kn_rres_resource_file",
+            "label": "PDF",
+            "name": "resource_file",
+            "aria-label": "",
+            "type": "file",
+            "instructions": "Leave empty to show 'PDF to come'.",
+            "required": false,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_kn_rres_resource_kind",
+                        "operator": "==",
+                        "value": "pdf"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "mime_types": "pdf",
+            "library": "all",
+            "min_size": 0,
+            "max_size": 0
+        },
+        {
+            "key": "field_kn_rres_phone",
+            "label": "Phone",
+            "name": "phone",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "One number. Shown as a tap-to-call link.",
+            "required": false,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_kn_rres_resource_kind",
+                        "operator": "==",
+                        "value": "phone"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_kn_rres_resource_kind",
+                        "operator": "==",
+                        "value": "link"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_kn_rres_sort_order",
+            "label": "Sort order",
+            "name": "sort_order",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "Order within its ROOTS area.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "step": 1,
+            "default_value": "",
+            "min": "",
+            "max": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "roots-resource"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [],
+    "active": true,
+    "description": "",
+    "show_in_rest": false,
+    "display_title": "",
+    "allow_ai_access": false,
+    "ai_description": "",
+    "modified": 1793112851
+}

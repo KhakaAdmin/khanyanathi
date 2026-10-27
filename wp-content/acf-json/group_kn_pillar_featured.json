@@ -1,0 +1,285 @@
+{
+    "key": "group_kn_pillar_featured",
+    "title": "Pillar: Featured resource",
+    "fields": [
+        {
+            "key": "field_kn_featured_show_featured",
+            "label": "Show featured block",
+            "name": "show_featured",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Turn off to hide the whole block.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "ui": 1,
+            "default_value": 0,
+            "message": "",
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_kn_featured_featured_eyebrow",
+            "label": "Eyebrow",
+            "name": "featured_eyebrow",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "e.g. 'Free guide for caregivers'",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_kn_featured_featured_title",
+            "label": "Title",
+            "name": "featured_title",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_kn_featured_featured_text",
+            "label": "Text",
+            "name": "featured_text",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "Two lines at most, no formatting.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "rows": 2,
+            "new_lines": "",
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_kn_featured_featured_media",
+            "label": "Media type",
+            "name": "featured_media",
+            "aria-label": "",
+            "type": "button_group",
+            "instructions": "",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "image": "Image",
+                "video": "Video"
+            },
+            "default_value": "image",
+            "return_format": "value",
+            "allow_null": 0,
+            "layout": "horizontal"
+        },
+        {
+            "key": "field_kn_featured_featured_image",
+            "label": "Image",
+            "name": "featured_image",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Guide cover or partner visual.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": 0,
+            "min_height": 0,
+            "min_size": 0,
+            "max_width": 0,
+            "max_height": 0,
+            "max_size": 0,
+            "mime_types": ""
+        },
+        {
+            "key": "field_kn_featured_featured_video",
+            "label": "Video",
+            "name": "featured_video",
+            "aria-label": "",
+            "type": "oembed",
+            "instructions": "YouTube or Vimeo link.",
+            "required": false,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_kn_featured_featured_media",
+                        "operator": "==",
+                        "value": "video"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "width": "",
+            "height": ""
+        },
+        {
+            "key": "field_kn_featured_guide_file",
+            "label": "Guide PDF",
+            "name": "guide_file",
+            "aria-label": "",
+            "type": "file",
+            "instructions": "Drives the 'Open the guide' and 'Download to print' buttons. Leave empty to hide them.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "mime_types": "pdf",
+            "library": "all",
+            "min_size": 0,
+            "max_size": 0
+        },
+        {
+            "key": "field_kn_featured_cta_1",
+            "label": "Button 1",
+            "name": "cta_1",
+            "aria-label": "",
+            "type": "link",
+            "instructions": "External link, e.g. the CareerXplora site. Opens in a new tab.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        },
+        {
+            "key": "field_kn_featured_cta_2",
+            "label": "Button 2",
+            "name": "cta_2",
+            "aria-label": "",
+            "type": "link",
+            "instructions": "e.g. the CareerXplora chat service.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        },
+        {
+            "key": "field_kn_featured_partner_label",
+            "label": "Partner label",
+            "name": "partner_label",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "e.g. 'Powered by CareerXplora'. Leave empty for no partner styling.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_kn_featured_partner_logo",
+            "label": "Partner logo",
+            "name": "partner_logo",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "mime_types": "svg,png",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": 0,
+            "min_height": 0,
+            "min_size": 0,
+            "max_width": 0,
+            "max_height": 0,
+            "max_size": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "271"
+            }
+        ],
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "515"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [],
+    "active": true,
+    "description": "",
+    "show_in_rest": false,
+    "display_title": "",
+    "allow_ai_access": false,
+    "ai_description": "",
+    "modified": 1793112851
+}
